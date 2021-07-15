@@ -1,5 +1,6 @@
 # 콘텐츠 모델(Content Models)
 ### HTML5 에는 요소들이 가지고 있는 성격에 따라 요소의 종류를 정의하는 규칙들이 있다. 요소는 이 규칙들을 준수해야 하며, 반드시 HTML 권고안을 따라야한다. 이런 규칙에 대해 비슷한 성격의 요소들끼리 그룹화한 것이 콘텐츠 모델이며, 각각의 요소들은 하나 또는 여러 개의 콘텐츠 모델에 속하게 된다.
+***
 - Metadata : ```base, link, meta, noscript, script, style, title (Head 태그 내 포함)```
   - 콘텐츠의 style, script 를 설정하거나 다른 문서와의 관계 등의 정보를 포함하는 요소
 - Flow : ``` a, abbr, address,map>area, article, aside,audio, b, bdo, blockquote,br, button,
