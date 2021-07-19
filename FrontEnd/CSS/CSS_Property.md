@@ -1,0 +1,30 @@
+# CSS 속성
+### CSS 단위
+- 길이 단위
+  - 절대 길이
+    - px : pixels
+    - pt : points
+  - 상대 길이
+    - % : percentage
+    - em : font size of the element
+    - rem : font size of the root element
+    - vw : 1% of vieport's width
+- Color
+  - 16진법을 이용 : color : #RRGGBB
+  - RGB를 이용 : rgb(R, G, B) (0 ~ 255 사이의 값)
+  - RGBA를 이용 : rgba(0,0,0,0) (0 ~ 1 사이의 값)
+- Background
+  - background - color : 배경의 색상을 지정하는 속성
+  - background - image : 배경으로 사용할 이미지의 경로를 지정(절대경로, 상대경로 모두 사용 가능)
+  - background - repeat : 이미지의 반복여부와 방향을 지정하는 속성
+    - x ,y 를 이용해서 x 축 y축 방향으로 반복 가능
+    - no - repeat : 이미지를 반복하지 않는다.
+  - backgorund - position : 기본 값 : 0 % 0 % 요소에서 배경 이미지의 위치를 지정하는 속성이다. x, y 축 으로부터의 간격을 순서로 한다.
+    - % : 기준으로 부터 % 만큼 떨어진 지점과 이미지의 % 지점이 일치하는 곳에 위치시킨다.
+    - px : 기준으로부터 px 만큼 떨어진 지점과 이미지의 (0,0) 지점이 일치하는 곳에 위치시킨다.
+    - 키워드 : 키워드는 순서와 관계 없이 top bottom 은 y축 기준, left right는 x 축 기준으로 한다.
+  - background - attachment : scroll 화면 스크롤에 따른 배경 이미지의 움직임 여부를 지정하는 속성이다.
+    - scroll : 요소 자체를 기준으로 고정되어 내용과 함께 스크롤 되지 않음.
+    - local : 내용과 함께 스크롤 됨
+    - fixed : 뷰포트를 기준으로 고정되어 스크롤에 영향을 받지 않음.
+  - background 축약 : ```background:[-color][-image][-repeat][-attachment][-position]```
