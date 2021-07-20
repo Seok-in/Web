@@ -44,3 +44,7 @@
     - length : 고정값으로 지정( Ex. px, em...)
     - percent : 부모 요소의 width에 상대적인 크기를 지정
     - 💡 Box의 크기는 width와 Padding, Border를 전부 더한 값이다.
+- Height : Content 요소의 높이값을 결정 ```height:auto|value|initial|inherit|;```
+  - auto : 브라우저에 의해 자동으로 계산(Default 값)
+  - length : 고정값으로 지정( Ex. px, em...)
+  - percent : 부모 요소의 height에 상대적인 크기를 지정
